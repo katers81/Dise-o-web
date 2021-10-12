@@ -1,4 +1,14 @@
-
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; // achicamos la fuente en pantallas pequeñas 
+	} 
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
 @media (max-width: 767px) 
 {
    .mynav .navbar-toggler .navbar-toggler-icon { color:#fff; outline:0px;}
