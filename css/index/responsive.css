@@ -12,7 +12,7 @@
 }
 @media (max-width: 767px) 
 {
-   .mynav .navbar-toggler .navbar-toggler-icon { color:#fff; outline:0px;}
+   .mynav .navbar-toggler .navbar-toggler-icon { color:rgba(0,0,0,0.75); outline:0px;}
    
    .navbg 
    {
@@ -67,20 +67,20 @@
     display:block;
     line-height:40px;
     background:#f2a500;
-    color:#fff;
+    color:rgba(0,0,0,0.75);
     transition:all ease-in-out 0.1s;
    }
 
 .mybt a
 {
-    color:#fff;
+    color:rgba(0,0,0,0.75);
     transition:all ease-in-out 0.1s;
 }
 
 .mybt:hover, .mybt a:hover
 {
     background:#fff; 
-    color:#fff;
+    color:rgba(0,0,0,0.75);
     text-decoration:none;
 }
 
